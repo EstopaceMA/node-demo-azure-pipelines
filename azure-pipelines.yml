@@ -18,7 +18,7 @@ variables:
   environmentName: 'demo-node-azure-pipeline'
 
   # Agent VM image name
-  vmImageName: 'default'
+  vmImageName: 'MacMiniAgent'
 
 stages:
 - stage: Build
