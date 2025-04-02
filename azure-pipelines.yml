@@ -17,9 +17,6 @@ variables:
   # Environment name
   environmentName: 'demo-node-azure-pipeline'
 
-  # Agent VM image name
-  vmImageName: Default
-
 stages:
 - stage: Build
   displayName: Build stage
@@ -27,7 +24,7 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      name: $(vmImageName)
+      name: 'Default'
 
     steps:
     - task: NodeTool@0
