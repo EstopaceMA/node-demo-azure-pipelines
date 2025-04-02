@@ -18,7 +18,7 @@ variables:
   environmentName: 'demo-node-azure-pipeline'
 
   # Agent VM image name
-  vmImageName: 'Default'
+  vmImageName: Default
 
 stages:
 - stage: Build
